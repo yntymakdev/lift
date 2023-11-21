@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* .xaxa {
+  width: 200px;
+  height: 200px;
+  background: red;
+} */
+
+/* квадрат */
+.q4 {
+  margin-top: -570px;
+}
+.q {
+  width: 200px;
+  height: 400px;
+  border-left: 8px solid black;
+  margin-left: 300px;
+  margin-top: 140px;
+  border: 3px solid red;
+}
+
+.q1 {
+  width: 300px;
+  height: 300px;
+  background: red;
+  margin-top: -700px;
+  margin-left: 260px;
+  border-radius: 3px;
+}
+.q1 {
+  -webkit-clip-path: polygon(15% 67%, 84% 67%, 100% 100%, 0% 100%);
+  clip-path: polygon(15% 67%, 84% 67%, 100% 100%, 0% 100%);
+}
+/* blue  */
+
+.q2 {
+  width: 400px;
+  height: 430px;
+  display: flex;
+
+  flex-direction: column;
+  text-align: center;
+  margin-top: -25px;
+
+  color: black;
+  margin-left: 780px;
+  -webkit-clip-path: polygon(0 0, 35% 0, 36% 100%, 0 100%);
+  clip-path: polygon(0 0, 35% 0, 36% 100%, 0 100%);
+}
+.q2 button {
+  color: black;
+  background: blue;
+  margin: 20px 0;
+}
+/* yellow */
+.q3 {
+  width: 1100px;
+  height: 130px;
+  background: black;
+  margin-top: -103px;
+  -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 79%, 0 79%);
+  clip-path: polygon(0 100%, 100% 100%, 100% 79%, 0 79%);
+}
+
+/*  */
+
+.root {
+  border-bottom: 30px solid #1a0d00;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  width: 200px;
+  z-index: 2;
+  position: absolute;
+  left: 30px;
+  top: 15px;
+}
+.block1 {
+  width: 180px;
+  height: 40px;
+  background-color: coral;
+  margin: 1px 0;
+  margin-left: 60px;
+}
+.block2 {
+  width: 180px;
+  height: 40px;
+  background-color: coral;
+  margin: 1px 0;
+  margin-left: 60px;
+}
+.block3 {
+  width: 180px;
+  height: 40px;
+  background-color: coral;
+  margin: 1px 0;
+  margin-left: 60px;
+}
+.block4 {
+  width: 180px;
+  height: 40px;
+  background-color: coral;
+  margin: 1px 0;
+  margin-left: 60px;
+}
+
+.block5 {
+  width: 180px;
+  height: 40px;
+  background-color: coral;
+  margin: 1px 0;
+  margin-left: 60px;
+}
+.block6 {
+  width: 180px;
+  height: 40px;
+  background-color: coral;
+  margin: 1px 0;
+  margin-left: 60px;
+}
+.block7 {
+  width: 180px;
+  height: 40px;
+  background-color: coral;
+  margin: 1px 0;
+  margin-left: 60px;
+}
+.block8 {
+  width: 180px;
+  height: 40px;
+  background-color: coral;
+  margin: 1px 0;
+  margin-left: 60px;
+}
+.block9 {
+  width: 180px;
+  height: 40px;
+  background-color: coral;
+  margin: 1px 0;
+  margin-left: 60px;
+}
+.block10 {
+  width: 180px;
+  height: 40px;
+  background-color: coral;
+  margin: 1px 0;
+  margin-left: 60px;
+}
+.block11 {
+  width: 180px;
+  height: 40px;
+  background-color: coral;
+  margin: 1px 0;
+  margin-left: 60px;
+}
+.block12 {
+  width: 180px;
+  height: 40px;
+  background-color: coral;
+  margin: 1px 0;
+  margin-left: 60px;
+}
+.block13 {
+  width: 180px;
+  height: 40px;
+  background-color: coral;
+  margin: 1px 0;
+  margin-left: 60px;
+}
+.block14 {
+  width: 180px;
+  height: 40px;
+  background-color: coral;
+  margin: 1px 0;
+  margin-left: 60px;
+}
+.block15 {
+  width: 180px;
+  height: 40px;
+  background-color: coral;
+  margin: 1px 0;
+  margin-left: 60px;
+}
+.block16 {
+  width: 180px;
+  height: 40px;
+  background-color: coral;
+  margin: 1px 0;
+  margin-left: 60px;
+}
+
+.app {
+  width: 100px;
+  height: 100px;
+  padding-top: 40px;
+}
+#app {
+  text-align: center;
+  position: relative;
+  width: 210px;
+}
+
+.btn {
+  margin-left: -200px;
+  margin-top: -100px;
+}
+.btn button {
+  width: 289px;
+  height: 63px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #f90;
+  border: solid none;
+  width: 50px;
+  cursor: pointer;
+  height: 40px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 700px;
+}
+button:focus {
+  background: red;
+  color: white;
+}
+
+.w img {
+  z-index: 99;
+  transition: 1s;
+  width: 70px;
+  height: 50px;
+  position: absolute;
+  left: 150px;
+  margin-top: 505px;
+}
